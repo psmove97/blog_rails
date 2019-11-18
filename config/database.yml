@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: post_list
+  pool: 5
+  username: psmove
+  password:
+  timeout: 5000
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: post_list
+  pool: 5
+  username: psmove
+  password:
+  timeout: 5000
